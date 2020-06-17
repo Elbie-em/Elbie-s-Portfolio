@@ -12,8 +12,7 @@ body {
 .profile-photo {
   height: 400px;
   width: auto;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 60px;
 }
 
 .skill-logo {
@@ -23,4 +22,22 @@ body {
 
 .skill-font {
   font-size: 20px;
+}
+
+.project-thumbnail {
+  height: 250px;
+  width: 170px;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+.project-thumbnail-b {
+  height: 150px;
+  width: 500px;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+.custom-margin {
+  margin: 5px;
 }
