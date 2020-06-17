@@ -5,3 +5,8 @@
 .nav-link-font {
   font-family: 'Athiti', sans-serif;
 }
+ 
+.profile-photo {
+  height: 400px;
+  width: auto;
+}
