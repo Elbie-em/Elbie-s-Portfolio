@@ -43,6 +43,12 @@ body {
   margin: 5px;
 }
 
+
+
+#contact-modal-link:hover {
+  cursor: pointer;
+}
+
 footer {
   position: relative;
   bottom: 0;

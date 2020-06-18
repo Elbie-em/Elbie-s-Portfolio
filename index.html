@@ -29,9 +29,9 @@
     <nav class="navbar navbar-light bg-info fixed-top shadow-lg">
       <a class="navbar-brand bg-light icon-font p-3 rounded-circle text-info" href="#">EM</a>
       <div>
-        <a class="navbar-brand p-3 text-light thin-font" href="#">About</a>
-        <a class="navbar-brand p-3 text-light thin-font" href="#">Projects</a>
-        <a class="navbar-brand p-3 text-light thin-font" href="#">Contact</a>
+        <a class="navbar-brand p-3 text-light thin-font" href="#about-me">About</a>
+        <a class="navbar-brand p-3 text-light thin-font" href="#projects">Projects</a>
+        <label id="contact-modal-link" class="navbar-brand p-3 text-light thin-font bg-info border-0" data-toggle="modal" data-target=".bd-example-modal-sm">Contact</label>
       </div>
     </nav>
   </head>
@@ -43,18 +43,38 @@
         </h4>
         <p class="text-center mt-3">
           <span>
-            <a href="#"><i class="fab fa-linkedin fa-2x text-info"></i></a>
-            <a href="#"><i class="fab fa-github fa-2x text-info"></i></a>
-            <a href="#"><i class="fab fa-twitter fa-2x text-info"></i></a>
-            <a href="#"><i class="fas fa-at fa-2x text-info"></i></a>
-            <a href="#"><i class="fas fa-address-card fa-2x text-info"></i></a>
+            <a href="https://www.linkedin.com/in/elbiemoonga/"><i class="fab fa-linkedin fa-2x text-info"></i></a>
+            <a href="https://github.com/Elbie-em"><i class="fab fa-github fa-2x text-info"></i></a>
+            <a href="https://twitter.com/ElbieEm"><i class="fab fa-twitter fa-2x text-info"></i></a>
+            <a href="mailto: emoonga1993@gmail.com"><i class="fas fa-at fa-2x text-info"></i></a>
+            <a href="tel:+260-963-830-728"><i class="fas fa-address-card fa-2x text-info"></i></a>
           </span>
         </p>
+        <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog modal-sm" role="document">
+            <div class="modal-content p-3">
+              <p class="mt-3">
+                <span>
+                  <a href="https://www.linkedin.com/in/elbiemoonga/"><i class="fab fa-linkedin fa-2x text-info"></i><span class="ml-3 thin-font text-info mb-3">Connect on LinkedIn!</span></a>
+                  <br>
+                  <a href="https://github.com/Elbie-em"><i class="fab fa-github fa-2x text-info"></i><span class="ml-3 thin-font text-info mb-3">Follow on Github!</span></a>
+                  <br>
+                  <a href="https://twitter.com/ElbieEm"><i class="fab fa-twitter fa-2x text-info"></i><span class="ml-3 thin-font text-info mb-3">Follow on Twitter!</span></a>
+                  <br>
+                  <a href="mailto: emoonga1993@gmail.com"><i class="fas fa-at fa-2x text-info"></i><span class="ml-3 thin-font text-info mb-3">Send me an Email!</span></a>
+                  <br>
+                  <a href="tel:+260-963-830-728"><i class="fas fa-address-card fa-2x text-info"></i><span class="ml-3 thin-font text-info mb-3">Call me!</span></a>
+                </span>
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
       <div class="col-sm-12 col-md-5"><img class="profile-photo rounded-circle" src="assets/profile_photo.jpg"
           alt="profile_photo"></div>
     </div>
-    <h1 class="thin-font text-center text-info mt-5">SKILL SET</h1>
+    <h1 id="skill-set" class="thin-font text-center text-info mt-5">SKILL SET</h1>
     <div class="row border m-5 p-3 text-center shadow-lg">
       <div class="col-sm-12 col-md-4 border-right">
         <h2 class="thin-font text-info">Front-End</h2>
@@ -129,7 +149,7 @@
         </div>
       </div>
     </div>
-    <h1 class="thin-font text-center text-info mt-5">About Me</h1>
+    <h1 id="about-me" class="thin-font text-center text-info mt-5">About Me</h1>
     <div class="p-5 shadow-lg">
       <h4 class="thin-font text-muted">
         I am an entrepreneur and a professional Full Stack Developer with over 4 years of experience. Some of my
@@ -150,7 +170,7 @@
         being a mentor to fellow developers.
       </h4>
     </div>
-    <h1 class="thin-font text-center text-info mt-5">PROJECTS</h1>
+    <h1 id="projects" class="thin-font text-center text-info mt-5">PROJECTS</h1>
     <div class="row p-3 shadow-lg m-3">
       <div class="card col-xs-12 col-sm-12 col-lg-6 m-3 mx-auto border-0">
         <div class="stack d-flex flex-sm-row mx-auto">
@@ -161,7 +181,8 @@
           <h3 class="thin-font text-info">Expenses Tracker Application</h3>
           <p class="card-text thin-font text-muted">A Ruby on Rails application based on grouping expenses by goal for
             you and family/friends.</p>
-          <a class="btn btn-info thin-font" href="#">Live Demo</a> <a class="btn btn-primary thin-font" href="#"> View
+          <a class="btn btn-info thin-font" href="https://calm-eyrie-22100.herokuapp.com/">Live Demo</a> <a
+            class="btn btn-primary thin-font" href="https://github.com/Elbie-em/Expenses-Tracker-App"> View
             Project</a>
         </div>
       </div>
@@ -173,12 +194,14 @@
           <h3 class="thin-font text-info">Custom CSS Linter</h3>
           <p class="card-text thin-font text-muted">A linter developed with Ruby for beginners. It provides feedback
             about errors that the user might encounter in their css file.</p>
-          <a class="btn btn-info thin-font" href="#">Live Demo</a> <a class="btn btn-primary thin-font" href="#"> View
+          <a class="btn btn-info thin-font"
+            href="https://repl.it/@elbieem/Ruby-Capstone-Project-Building-a-Custom-CSS-Linter#README.md">Live Demo</a>
+          <a class="btn btn-primary thin-font"
+            href="https://github.com/Elbie-em/Ruby-Capstone-Project-Building-a-Custom-CSS-Linter"> View
             Project</a>
         </div>
       </div>
     </div>
-
     <div class="row p-3 shadow-lg m-3">
       <div class="card col-sm-12 col-lg-6 m-3 mx-auto border-0">
         <div class="stack d-flex flex-sm-row mx-auto">
@@ -189,7 +212,9 @@
           <h3 class="thin-font text-info">Imaginary Tournament Website</h3>
           <p class="card-text thin-font text-muted">Project is based on an online website for an imaginative golf
             tournament.</p>
-          <a class="btn btn-info thin-font" href="#">Live Demo</a> <a class="btn btn-primary thin-font" href="#"> View
+          <a class="btn btn-info thin-font" href="https://brave-hermann-50061c.netlify.app">Live Demo</a> <a
+            class="btn btn-primary thin-font"
+            href="https://github.com/Elbie-em/HTML-CSS-Captone-Project-Tournament-Website"> View
             Project</a>
         </div>
       </div>
@@ -202,28 +227,31 @@
           <h3 class="thin-font text-info">News Week Clone</h3>
           <p class="card-text thin-font text-muted">This project is based on a replica of the news site home page of
             Newsweek.com using the Bootstrap framework.</p>
-          <a class="btn btn-info thin-font" href="#">Live Demo</a> <a class="btn btn-primary thin-font" href="#"> View
+          <a class="btn btn-info thin-font"
+            href="https://rawcdn.githack.com/Elbie-em/Using-Bootstrap-The-News-Week-Hompage-Clone-/68bf262666fd2fec29d001d074ef0761a43fdb42/index.html">Live
+            Demo</a> <a class="btn btn-primary thin-font"
+            href="https://github.com/Elbie-em/Using-Bootstrap-The-News-Week-Hompage-Clone-"> View
             Project</a>
         </div>
       </div>
     </div>
   </main>
-  <footer class="bg-info d-flex flex-row justify-content-between">
+  <footer class="bg-info d-flex flex-row justify-content-between p-3">
     <h4 class="custom-margin thin-font text-white">Elbie Moonga</h4>
     <p class="custom-margin ml-5 text-white">
       <span>
-        <a href="#"><i class="fab fa-linkedin fa-1x text-white"></i></a>
+        <a href="https://www.linkedin.com/in/elbiemoonga/"><i class="fab fa-linkedin fa-1x text-white"></i></a>
         .
-        <a href="#"><i class="fab fa-github fa-1x text-white"></i></a>
+        <a href="https://github.com/Elbie-em"><i class="fab fa-github fa-1x text-white"></i></a>
         .
-        <a href="#"><i class="fab fa-twitter fa-1x text-white"></i></a>
+        <a href="https://twitter.com/ElbieEm"><i class="fab fa-twitter fa-1x text-white"></i></a>
         .
-        <a href="#"><i class="fas fa-at fa-1x text-white"></i></a>
+        <a href="mailto: emoonga1993@gmail.co"><i class="fas fa-at fa-1x text-white"></i></a>
         .
-        <a href="#"><i class="fas fa-address-card fa-1x text-white"></i></a>
+        <a href="tel:+260-963-830-728"><i class="fas fa-address-card fa-1x text-white"></i></a>
       </span>
     </p>
-    <p class="thin-font text-white mr-3 mt-3">(c)2020</p>
+    <p class="thin-font text-white mr-3">(c)2020</p>
   </footer>
 </body>
 
