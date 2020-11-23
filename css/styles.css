@@ -39,6 +39,27 @@ body {
   margin-top: 10px;
 }
 
+.project-thumbnail-c {
+  height: 200px;
+  width: 380px;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+.project-thumbnail-d {
+  height: 250px;
+  width: 380px;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+.project-thumbnail-e {
+  height: 300px;
+  width: 500px;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
 .custom-margin {
   margin: 5px;
 }
