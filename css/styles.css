@@ -40,23 +40,26 @@ body {
 }
 
 .project-thumbnail-c {
-  height: 200px;
-  width: 380px;
-  margin-right: 20px;
+  height: 90%;
+  width: 70%;
+  margin-right: auto;
+  margin-left: auto;
   margin-top: 10px;
 }
 
 .project-thumbnail-d {
-  height: 250px;
-  width: 380px;
-  margin-right: 20px;
+  height: 70%;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
   margin-top: 10px;
 }
 
 .project-thumbnail-e {
-  height: 300px;
-  width: 500px;
-  margin-right: 20px;
+  height: 90%;
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
   margin-top: 10px;
 }
 
