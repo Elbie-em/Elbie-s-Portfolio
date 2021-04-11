@@ -67,7 +67,12 @@ body {
   margin: 5px;
 }
 
-
+.contact-section {
+  width: 85%;
+  padding: 16px;
+  margin-right: auto;
+  margin-left: auto;
+}
 
 #contact-modal-link:hover {
   cursor: pointer;
