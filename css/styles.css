@@ -1,6 +1,11 @@
 body {
   overflow-x: hidden;
 }
+
+footer, a {
+  text-decoration: none;
+  color: #fff;
+}
 .icon-font {
   font-family: 'Leckerli One', cursive;
 }
@@ -104,3 +109,4 @@ footer {
     margin-left: 50px;
   }
 }
+
