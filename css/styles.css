@@ -88,10 +88,12 @@ footer a {
 }
 
 .btn-primary-custom {
+  margin: 5px;
   background-color: #00458F;
 }
 
 .btn-success-custom {
+  margin: 5px;
   background-color: #175E28;
 }
 
@@ -103,6 +105,10 @@ footer a {
 
 .sub {
   font-size: 28px;
+}
+
+.sub-b {
+  font-size: 20px;
 }
 
 footer {
