@@ -87,6 +87,20 @@ footer a {
   color: rgb(16, 16, 16);
 }
 
+.btn-primary-custom {
+  background-color: #00458F;
+}
+
+.btn-success-custom {
+  background-color: #175E28;
+}
+
+.btn-success-custom, .btn-primary-custom {
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+}
+
 footer {
   position: relative;
   bottom: 0;
