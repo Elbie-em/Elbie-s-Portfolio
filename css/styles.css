@@ -83,6 +83,10 @@ footer a {
   cursor: pointer;
 }
 
+.social-links a {
+  color: rgb(16, 16, 16);
+}
+
 footer {
   position: relative;
   bottom: 0;
